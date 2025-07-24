@@ -1,0 +1,53 @@
+body {
+  background-color: #ffffff;
+  color: #121212;
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.btn-primary {
+  background-color: #0070f3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #005dc1;
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.transition {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0, 112, 243, 0.2);
+}
